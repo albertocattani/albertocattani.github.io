@@ -1,0 +1,65 @@
+body {
+	background-color : #000;
+	margin : 0px;
+	padding : 0px;
+	color : #fff;
+	overflow: auto;
+}
+
+a {
+    margin-left: auto; 
+  margin-right: auto; 
+  width: 100px; /* Need a specific value to work */
+  background: transparent;
+  background-image: transparent;
+  background-image: transparent;
+  background-image: transparent;
+  background-image: transparent;
+  background-image: transparent;
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 0px;
+    border-color: transparent;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 11px;
+  padding: 0px 0px 0px 0px;
+  text-decoration: none;
+    mix-blend-mode: difference
+}
+button {
+      position: absolute; 
+    top: 25px;
+  left: 0; 
+  right: 0; 
+  margin-left: auto; 
+  margin-right: auto; 
+  width: 1000px; /* Need a specific value to work */
+  background: transparent;
+  background-image: transparent;
+  background-image: transparent;
+  background-image: transparent;
+  background-image: transparent;
+  background-image: transparent;
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 0px;
+    border-color: transparent;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 11px;
+  padding: 0px 0px 0px 0px;
+  text-decoration: none;
+    mix-blend-mode: difference
+}
+
+.button:hover {
+  background: transparent;
+  background-image: -transparent;
+  background-image: transparent;
+  background-image: transparent;
+  background-image: transparent;
+  background-image: transparent;
+  text-decoration: none;
+}
+    }
