@@ -1,0 +1,92 @@
+.container {
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-size: 50px;
+}
+
+.dud {
+  color: #757575;
+}
+
+
+@font-face {
+    font-family: AG-Light;
+    src: url(../fonts/AkzidenzGroteskBE-LightOsF.eot?#iefix) format("embedded-opentype"), url(../fonts/AkzidenzGroteskBE-LightOsF.woff) format("woff"), url(../fonts/AkzidenzGroteskBE-LightOsF.ttf) format("truetype"), url(../fonts/AkzidenzGroteskBE-LightOsF.svg#AkzidenzGroteskBE-LightOsF) format("svg");
+    font-weight: 400;
+    font-style: normal
+}
+
+@font-face {
+    font-family: Grotesk;
+    src: url(https://github.com/jvanzummeren/vertragings-app/blob/master/css/fonts/Berthold%20Akzidenz%20Grotesk%20BE%20Bold%20Condensed%202.ttf);
+    font-weight: 400;
+    font-style: normal
+}
+
+
+
+
+body,
+html {
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    webkit-font-smoothing: antialiased !important
+}
+
+a:active,
+a:hover,
+a:link,
+a:visited {
+    text-decoration: underline;
+    color: inherit
+}
+
+header {
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: Grotesk, sans-serif;
+    font-size: 11px;
+    color: #fff;
+    text-align: center;
+    margin: 25px 0 0;
+    z-index: 2;
+    letter-spacing: .04em;
+    line-height: 18px;
+    mix-blend-mode: difference
+}
+
+.content,
+header {
+    position: absolute;
+    top: 0;
+    width: 100%
+}
+
+.content {
+    left: 0;
+    z-index: 1;
+    height: 100%
+}
+
+.content,
+.roll {
+    margin: 0;
+    padding: 0
+}
+
+.roll {
+    position: relative;
+    width: 100%;
+    height: 100vh
+}
+
+.image {
+    height: 100vh !important;
+    background-size: cover !important
+}
+
